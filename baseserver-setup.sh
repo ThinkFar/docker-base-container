@@ -1,5 +1,5 @@
 #!/bin/sh
-apt-get update && apt-get install -y nodejs sudo yarn wget curl git vim nano zip unzip tar gzip make python
+apt-get update && apt-get install -y sudo yarn wget curl git vim nano zip unzip tar gzip make python
 apt-get update
 apt-get upgrade -y
 if [ ! -f /usr/src/app/docker-index-placeholder.js ]; then 
